@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="witdh=device-width, initial-scale=1">
+        <title>Responsive Star Wars page</title>
+
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+        <!--Boxicons for icons-->
+        <link rel="stylesheet" type="text/css" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"> 
+        
+        <!--Remix icons-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css" rel="stylesheet">
+
+        <!--Google fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+        
+        <!--JS script for animation-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+       
+    </head>
+    <body>
+        
+        <header>
+            <a href="#" class="logo"><img src="img/logo.png" alt="star_wars"></a>
+
+            <ul class="navlist">
+                <li><a href="#">Home</a></li>
+                <li><a href="#movies">Movies</a></li>
+                <li><a href="#">Series</a></li>
+                <li><a href="#">Roles</a></li>
+                <li><a href="#">About</a></li>
+
+                
+            </ul>
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </header>
+
+        <section class="hero">
+            <div class="hero-text">
+                <h4>ARE YOU A</h4>
+                <h1>STAR WARS FAN?</h1>
+                <p>Find all episodes here on this site. <br>Besides episodes, you can find other star wars movies and series.</p>
+                <a href="#">Contact us</a>
+                <a href="#movies" class="ctaa"><i class="ri-play-fill"></i>Watch now</a>
+            </div>
+
+            <div class="hero-img">
+                <img src="img/kylo3.png" alt="Kylo-Ren">
+            </div>
+        </section>
+
+        <div class="icons">
+            <a href="#"><i class="ri-instagram-fill"></i></a>
+            <a href="#"><i class="ri-youtube-fill"></i></a>
+            <a href="#"><i class="ri-facebook-fill"></i></a>
+        </div>
+
+        <div class="scroll-down">
+            <a href="#"><i class="ri-arrow-down-double-fill"></i></a>
+        </div>
+        
+         <!--JS script for animation-->
+         <script src="js/animate1.js"></script>
+         <!--JS script for navbar responsive-->
+         <script src="js/script.js"></script>
+
+        <section id="movies" class="movies_section">
+            <h1 class="movie">STAR WARS EPISODES</h1>
+            <div class="movies_list">
+                <div class="movie_card">
+                   <a href=""><img src="img/episode1.jpg" alt="Episode_1"></a> 
+                   <p>EPISODE I - THE PHANTOM MENACE</p>
+                </div>
+
+                <div class="movie_card">
+                    <a href=""><img src="img/episode2.jpg" alt="Episode_2"></a> 
+                    <p>EPISODE II - ATTACK OF THE CLONES</p>
+                </div>
+
+                <div class="movie_card">
+                    <a href=""><img src="img/episode3.jpg" alt="Episode_3"></a>
+                    <p>EPISODE III - REVENGE OF THE SITH</p> 
+                </div>
+
+                <div class="movie_card">
+                    <a href=""><img src="img/episode4.jpg" alt="Episode_4"></a>
+                    <p>EPISODE IV - A NEW HOPEE</p> 
+                </div>
+
+                <div class="movie_card">
+                    <a href=""><img src="img/episode5.jpg" alt="Episode_5"></a>
+                    <p>EPISODE V - THE EMPIRE STRIKES BACK</p> 
+                </div>
+
+                <div class="movie_card">
+                    <a href=""><img src="img/episode6.webp" alt="Episode_6"></a> 
+                    <p>EPISODE VI - RETURN OF THE JEDI</p>
+                </div>
+
+                <div class="movie_card">
+                    <a href=""><img src="img/episode7.jpg" alt="Episode_7"></a> 
+                    <p>EPISODE VII - THE FORCE AWEKENS</p>
+                </div>
+
+                <div class="movie_card">
+                    <a href=""><img src="img/episode8.jpg" alt="Episode_8"></a> 
+                    <p>EPISODE VIII - THE LAST JEDI</p>
+                </div>
+
+                <div class="movie_card">
+                    <a href=""><img src="img/episode9.jpg" alt="Episode_9"></a> 
+                    <p>EPISODE IX - THE RISE OF SKYWALKER</p>
+                </div>
+            </div>   
+            
+        </section>
+        <!--JS script for animation-->
+        <script src="js/animate2.js"></script>
+
+        <section id="movies" class="movies_section">
+            <h1 class="movie">STAR WARS MOVIES</h1>
+
+            <div class="movies_list">
+                <div class="movie_card">
+                   <a href=""><img src="img/solo.jpg" alt="Solo"></a> 
+                   <p>SOLO - STAR WARS STORY</p>
+                </div>
+
+                <div class="movie_card">
+                    <a href=""><img src="img/rougeone.jpg" alt="Rouge_one"></a> 
+                    <p>ROUGE ONE - A STAR WARS STORY</p>
+                 </div>
+
+        </section>    
+    </body>
+
+</html>
